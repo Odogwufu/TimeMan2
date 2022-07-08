@@ -83,4 +83,15 @@ android:textStyle="bold" />
         android:layout_marginTop="30dp"
         android:textColor="@color/white"/>
 
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/google"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/googleicon"
+        android:layout_below="@id/others"
+        />
+
     </RelativeLayout>
