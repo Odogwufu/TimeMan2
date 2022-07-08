@@ -59,4 +59,10 @@ class MainActivity : AppCompatActivity() {
         timerStarted = true
     }
 
+    private fun stopTimer() {
+        stopService(serviceIntent)
+        binding.startStopButton.text = "start"
+        binding.startStopButton.icon = getDrawable(R.drawable.ic_baseline_play_arrow_24)
+        timerStarted = false
+    }
 }
