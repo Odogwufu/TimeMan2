@@ -88,6 +88,7 @@ class MainActivity : AppCompatActivity() {
 
 
     }
+    // converts to string format
     private fun makeTimeString(hour: Int, min: Int, sec: Int): String =
         String.format("%02d:%02d:%02d", hour, min, sec)
 
