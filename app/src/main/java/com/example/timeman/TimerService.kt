@@ -23,5 +23,14 @@ class TimerService: Service() {
         timer.cancel()
         super.onDestroy()
     }
+//inner class timertask  updates timer
+    private inner class TimeTask(private var time: Double) : TimerTask() {
+        override fun run() {
+            val intent = Intent(TIMER_UPDATED)
+            time++
+            intent.putExtra(TIME_EXTRA, time)
+            sendBroadcast(intent)
+        }
+    }
 }
 
