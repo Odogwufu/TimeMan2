@@ -32,6 +32,20 @@ android:textStyle="bold" />
         android:textColor="@color/teal_200"
         android:textColorHint="@color/white"
         android:inputType=""
-        android:textSize="25dp" />
 
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username"
+        android:layout_marginTop="40dp"
+        android:background="#30ffffff"
+        android:drawableLeft="@drawable/ic_baseline_info_30"
+        android:drawablePadding="30dp"
+        android:hint="Password"
+        android:padding="30dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:inputType="textPassword"
+        android:textSize="25dp" />
     </RelativeLayout>
