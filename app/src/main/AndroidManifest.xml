@@ -33,8 +33,9 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-            <service android:name=".TimerService" />
+
         </activity>
+        <service android:name=".TimerService" />
     </application>
 
 </manifest>
