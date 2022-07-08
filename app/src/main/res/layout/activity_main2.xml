@@ -5,4 +5,33 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/cardview_dark_background"
-    tools:context=".Login"/>
+    tools:context=".Login">
+<TextView
+android:id="@+id/signin"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginStart="30dp"
+android:layout_marginTop="50dp"
+android:layout_marginEnd="30dp"
+android:layout_marginBottom="30dp"
+android:gravity="center"
+android:text="Sign in"
+android:textColor="@color/white"
+android:textSize="50dp"
+android:textStyle="bold" />
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signin"
+        android:background="#30ffffff"
+        android:drawableLeft="@drawable/ic_baseline_person_outline_25"
+        android:drawablePadding="30dp"
+        android:hint="Username"
+        android:padding="20dp"
+        android:textColor="@color/teal_200"
+        android:textColorHint="@color/white"
+        android:inputType=""
+        android:textSize="25dp" />
+
+    </RelativeLayout>
