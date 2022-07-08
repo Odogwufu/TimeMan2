@@ -62,4 +62,25 @@ android:textStyle="bold" />
         android:background="@color/white"
         android:text="Login"
         android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/forgotpass"
+        android:text="Forgot password?"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/loginbtn"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/others"
+        android:text="or sign in with"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/forgotpass"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"/>
+
     </RelativeLayout>
