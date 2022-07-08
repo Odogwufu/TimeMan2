@@ -31,6 +31,12 @@ class TimerService: Service() {
             intent.putExtra(TIME_EXTRA, time)
             sendBroadcast(intent)
         }
+
+    }
+    companion object{
+        const val TIMER_UPDATED="timerUpdated"
+        const val TIME_EXTRA="timeExtra"
+
     }
 }
 
