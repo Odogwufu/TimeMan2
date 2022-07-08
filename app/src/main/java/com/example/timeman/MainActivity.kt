@@ -71,4 +71,23 @@ class MainActivity : AppCompatActivity() {
         time = 0.0
         binding.timeTV.text = getTimeStringFromDouble(time)
     }
+
+    private val updateTime: BroadcastReceiver = object : BroadcastReceiver() {
+        override fun onReceive(context: Context?, intent: Intent) {
+            time = intent.getDoubleExtra(TimerService.TIME_EXTRA, 0.0)
+            binding.timeTV.text = getTimeStringFromDouble(time)
+        }
+    }
+    // basically breaks it to hours, minutes and secs
+    private fun getTimeStringFromDouble(time: Double): String {
+        val resultInt = time.roundToInt()
+        val hours = resultInt % 86400 / 3600
+        val minutes = resultInt % 86400 % 3600 / 60
+        val seconds = resultInt % 86400 % 3600 % 60
+        return makeTimeString(hours, minutes, seconds)
+
+
+    }
+
+
 }
