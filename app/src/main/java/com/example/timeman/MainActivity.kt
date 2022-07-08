@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-
+//button listener
         binding.startStopButton.setOnClickListener { startStopTimer() }
         binding.resetButton.setOnClickListener { resetTimer() }
 
@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
         else
             startTimer()
     }
-
+// Start Timer
     private fun startTimer() {
         serviceIntent.putExtra(TimerService.TIME_EXTRA, time)
         startService(serviceIntent)
@@ -58,11 +58,17 @@ class MainActivity : AppCompatActivity() {
         binding.startStopButton.icon = getDrawable(R.drawable.ic_baseline_pause_24)
         timerStarted = true
     }
-
+//Stop timer
     private fun stopTimer() {
         stopService(serviceIntent)
         binding.startStopButton.text = "start"
         binding.startStopButton.icon = getDrawable(R.drawable.ic_baseline_play_arrow_24)
         timerStarted = false
+    }
+    //added reset function
+    private fun resetTimer() {
+        stopTimer()
+        time = 0.0
+        binding.timeTV.text = getTimeStringFromDouble(time)
     }
 }
