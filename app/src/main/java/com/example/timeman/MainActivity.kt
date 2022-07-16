@@ -24,7 +24,6 @@ class MainActivity : AppCompatActivity() {
     private var time = 0.0
 
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
