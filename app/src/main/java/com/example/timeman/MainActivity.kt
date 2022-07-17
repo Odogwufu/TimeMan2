@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private var timerStarted = false
     private lateinit var serviceIntent: Intent
-    private var time = 0.0
+    private var time = 0.00
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
