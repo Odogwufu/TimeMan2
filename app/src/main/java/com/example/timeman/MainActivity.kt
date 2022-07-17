@@ -5,14 +5,7 @@ import android.content.Context
 import android.content.Intent
 import android.content.IntentFilter
 import android.os.Bundle
-import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
-import androidx.navigation.findNavController
-import androidx.navigation.ui.AppBarConfiguration
-import androidx.navigation.ui.navigateUp
-import androidx.navigation.ui.setupActionBarWithNavController
-import android.view.Menu
-import android.view.MenuItem
 import android.widget.Button
 import com.example.timeman.databinding.ActivityMainBinding
 import kotlin.math.roundToInt
@@ -44,10 +37,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun startStopTimer() {
-        if (timerStarted)
+        if (timerStarted) {
             stopTimer()
-        else
+        } else {
             startTimer()
+        }
     }
 // Start Timer
     private fun startTimer() {
@@ -84,7 +78,6 @@ class MainActivity : AppCompatActivity() {
         val minutes = resultInt % 86400 % 3600 / 60
         val seconds = resultInt % 86400 % 3600 % 60
         return makeTimeString(hours, minutes, seconds)
-
 
     }
     // converts to string format
