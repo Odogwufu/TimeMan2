@@ -18,7 +18,7 @@ import com.example.timeman.databinding.ActivityMainBinding
 import kotlin.math.roundToInt
 
 class MainActivity : AppCompatActivity() {
-    private lateinit var binding: ActivityMainBinding
+   /* private lateinit var binding: ActivityMainBinding
     private var timerStarted = false
     private lateinit var serviceIntent: Intent
     private var time = 0.0
@@ -91,5 +91,5 @@ class MainActivity : AppCompatActivity() {
     // converts to string format
     private fun makeTimeString(hour: Int, min: Int, sec: Int): String =
         String.format("%02d:%02d:%02d", hour, min, sec)
-
+*/
 }
