@@ -35,8 +35,8 @@ class SignIn : AppCompatActivity() {
             startActivity(intent)
 
 
+// testing git hub
 
-///
             if (email.isNotEmpty() && pass.isNotEmpty()) {
 
                 firebaseAuth.createUserWithEmailAndPassword(email, pass).addOnCompleteListener {
