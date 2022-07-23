@@ -84,14 +84,12 @@
         android:id="@+id/Alreadyregistered"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/loginbtn"
-        android:layout_centerHorizontal="true"
+        android:layout_below="@id/SignUpbtn"
+        android:layout_marginTop="70dp"
         android:text="Already Registered? Sign in"
         android:textColor="@color/white"
-        android:textSize="20dp" />
-
-
-
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"/>
 
 
 </RelativeLayout>

@@ -1,95 +1,54 @@
 package com.example.timeman
 
-import android.content.BroadcastReceiver
-import android.content.Context
-import android.content.Intent
-import android.content.IntentFilter
 import android.os.Bundle
-import com.google.android.material.snackbar.Snackbar
+import android.view.View
+import android.widget.*
+import android.widget.AdapterView.OnItemLongClickListener
 import androidx.appcompat.app.AppCompatActivity
-import androidx.navigation.findNavController
-import androidx.navigation.ui.AppBarConfiguration
-import androidx.navigation.ui.navigateUp
-import androidx.navigation.ui.setupActionBarWithNavController
-import android.view.Menu
-import android.view.MenuItem
-import android.widget.Button
+import com.example.timeman.R
 import com.example.timeman.databinding.ActivityMainBinding
-import kotlin.math.roundToInt
 
 class MainActivity : AppCompatActivity() {
-   /* private lateinit var binding: ActivityMainBinding
-    private var timerStarted = false
-    private lateinit var serviceIntent: Intent
-    private var time = 0.0
+    private lateinit var binding: ActivityMainBinding
+    private var items: ArrayList<String>? = null
+    private var itemsAdapter: ArrayAdapter<String>? = null
+    private var listView: ListView? = null
 
-
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(binding.root)
-
-//button listener
-        binding.startStopButton.setOnClickListener { startStopTimer() }
-        binding.resetButton.setOnClickListener { resetTimer() }
-
-        serviceIntent = Intent(applicationContext, TimerService::class.java)
-        registerReceiver(updateTime, IntentFilter(TimerService.TIMER_UPDATED))
-        val button =findViewById<Button>(R.id.secondActivityBtn)
-        button.setOnClickListener{
-            val intent = Intent(this,MainActivity2::class.java)
-            startActivity(intent)
-        }
-
+    override fun onCreate(SavedInstanceState: Bundle?) {
+        super.onCreate(SavedInstanceState)
+        setContentView(R.layout.activity_main)
+        listView = findViewById(R.id.listView)
+        binding.button.setOnClickListener { view -> addItem(view) }
+        items = ArrayList()
+        itemsAdapter = ArrayAdapter(
+            this, android.R.layout.simple_list_item_1,
+            items!!
+        )
+        listView?.adapter = itemsAdapter
+        setupListViewListener()
     }
 
-    private fun startStopTimer() {
-        if (timerStarted)
-            stopTimer()
-        else
-            startTimer()
-    }
-// Start Timer
-    private fun startTimer() {
-        serviceIntent.putExtra(TimerService.TIME_EXTRA, time)
-        startService(serviceIntent)
-        binding.startStopButton.text = "stop"
-        binding.startStopButton.icon = getDrawable(R.drawable.ic_baseline_pause_24)
-        timerStarted = true
-    }
-//Stop timer
-    private fun stopTimer() {
-        stopService(serviceIntent)
-        binding.startStopButton.text = "start"
-        binding.startStopButton.icon = getDrawable(R.drawable.ic_baseline_play_arrow_24)
-        timerStarted = false
-    }
-    //added reset function
-    private fun resetTimer() {
-        stopTimer()
-        time = 0.0
-        binding.timeTV.text = getTimeStringFromDouble(time)
+    private fun setupListViewListener() {
+        listView!!.onItemLongClickListener =
+            OnItemLongClickListener { parent: AdapterView<*>?, view: View?, i: Int, l: Long ->
+                val context = applicationContext
+                Toast.makeText(context, "Item Removed", Toast.LENGTH_LONG).show()
+                items!!.removeAt(i)
+                itemsAdapter!!.notifyDataSetChanged()
+                true
+            }
     }
 
-    private val updateTime: BroadcastReceiver = object : BroadcastReceiver() {
-        override fun onReceive(context: Context?, intent: Intent) {
-            time = intent.getDoubleExtra(TimerService.TIME_EXTRA, 0.0)
-            binding.timeTV.text = getTimeStringFromDouble(time)
+    private fun addItem(view: View) {
+        val input = findViewById<EditText>(R.id.editText2)
+        val itemText = input.text.toString()
+        if (itemText != "") {
+            itemsAdapter!!.add(itemText)
+            input.setText("")
+        } else {
+            Toast.makeText(applicationContext, "PLease enter text...", Toast.LENGTH_LONG).show()
         }
     }
-    // basically breaks it to hours, minutes and secs
-    private fun getTimeStringFromDouble(time: Double): String {
-        val resultInt = time.roundToInt()
-        val hours = resultInt % 86400 / 3600
-        val minutes = resultInt % 86400 % 3600 / 60
-        val seconds = resultInt % 86400 % 3600 % 60
-        return makeTimeString(hours, minutes, seconds)
-
-
-    }
-    // converts to string format
-    private fun makeTimeString(hour: Int, min: Int, sec: Int): String =
-        String.format("%02d:%02d:%02d", hour, min, sec)
-*/
 }
+
+
