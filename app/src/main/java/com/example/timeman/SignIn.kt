@@ -31,7 +31,7 @@ class SignIn : AppCompatActivity() {
             val email = binding.username.text.toString()
             val pass = binding.password.text.toString()
 
-            val intent = Intent(this, MainActivity2::class.java)
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
 
 
@@ -41,7 +41,7 @@ class SignIn : AppCompatActivity() {
 
                 firebaseAuth.createUserWithEmailAndPassword(email, pass).addOnCompleteListener {
                     if (it.isSuccessful) {
-                        val intent = Intent(this, MainActivity2::class.java)
+                        val intent = Intent(this, MainActivity::class.java)
                         startActivity(intent)
                     } else {
                         Toast.makeText(this, it.exception.toString(), Toast.LENGTH_SHORT).show()

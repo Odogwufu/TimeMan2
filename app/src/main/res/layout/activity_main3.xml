@@ -1,56 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<androidx.coordinatorlayout.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical">
+    tools:context=".MainActivity3">
 
-
-    <TextView
-        android:id="@+id/timeTV"
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:layout_height="123dp"
-        android:padding="10dp"
-        android:text="00:00:00"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="60sp"
-        />
+        android:theme="@style/Theme.Timeman.AppBarOverlay">
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/startStopButton"
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width = "match_parent"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/Theme.Timeman.PopupOverlay"
+            android:layout_height = "?attr/actionBarSize" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="start"
-        app:icon="@drawable/ic_baseline_play_arrow_24"
-        android:color="#00BCD4"
-        />
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:layout_marginBottom="16dp"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/resetButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:text="reset"
-        app:icon="@drawable/ic_baseline_refresh_24" />
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="404dp"
-        android:padding="10dp">
-
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <Button
-        android:id="@+id/secondActivityBtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="256dp"
-        android:layout_marginBottom="4dp"
-        android:text="Task manager" />
-
-</LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
