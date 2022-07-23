@@ -1,6 +1,7 @@
 package com.example.timeman
 
 import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.*
@@ -21,6 +22,12 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(SavedInstanceState: Bundle?) {
         super.onCreate(SavedInstanceState)
         setContentView(R.layout.activity_main)
+
+        val button3 =findViewById<Button>(R.id.button3)
+        button3.setOnClickListener{
+            val intent = Intent(this,MainActivity2::class.java)
+            startActivity(intent)
+        }
 
         listView =findViewById(R.id.listView)
         button = findViewById(R.id.button)
