@@ -14,4 +14,5 @@
     <string name="title_activity_main4">MainActivity4</string>
     <string name="title_activity_signin">Signin</string>
     <string name="title_activity_singup">singup</string>
+    <string name="add_event">Add Event</string>
 </resources>

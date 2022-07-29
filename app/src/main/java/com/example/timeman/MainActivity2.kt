@@ -36,9 +36,9 @@ class MainActivity2 : AppCompatActivity() {
 
         serviceIntent = Intent(applicationContext, TimerService::class.java)
         registerReceiver(updateTime, IntentFilter(TimerService.TIMER_UPDATED))
-        val button =findViewById<Button>(R.id.secondActivityBtn)
+        val button =findViewById<Button>(R.id.button4)
         button.setOnClickListener{
-            val intent = Intent(this,MainActivity2::class.java)
+            val intent = Intent(this,MainActivity3::class.java)
             startActivity(intent)
         }
 
