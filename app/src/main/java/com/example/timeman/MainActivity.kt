@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
         firebaseDatabase = FirebaseDatabase.getInstance();
 
         // below line is used to get reference for our database.
-        databaseReference = firebaseDatabase!!.getReference("EmployeeInfo");
+        databaseReference = firebaseDatabase!!.getReference("ToDoList");
     }
 
     private fun setupListViewListener() {
@@ -71,12 +71,12 @@ class MainActivity : AppCompatActivity() {
     private fun addDatatoFirebase(itemText: String) {
         // below 3 lines of code is used to set
         // data in our object class.
-        items.add(itemText)
+//        items.add(itemText)
 
 
         // we are use add value event listener method
         // which is called with database reference.
-        databaseReference!!.addValueEventListener(object : ValueEventListener {
+            databaseReference!!.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 // inside the method of on Data change we are setting
                 // our object class to our database reference.
