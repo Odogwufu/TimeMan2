@@ -73,19 +73,37 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun addItem(view:View) {
+    fun addItem(view:View) {
         val input = findViewById<EditText>(R.id.editText2)
         val itemText = input.text.toString()
         if (itemText != "") {
             itemsAdapter.add(itemText)
             input.setText("")
             addDatatoFirebase(itemText);
-            createNotification(itemText)
+
+            val switch=findViewById<Switch>(R.id.switch1)
+            if ( switch.isChecked){
+                createNotification(itemText)
+            }
+
+//            checktoggle() {
+//                createNotification(itemText)
+//            }
 
         } else {
             Toast.makeText(applicationContext, "PLease enter text...", Toast.LENGTH_LONG).show()
         }
     }
+
+//    private fun checktoggle(): Boolean {
+//
+//    val switch=findViewById<Switch>(R.id.switch1)
+//       if ( switch.isChecked){
+//           return true
+//       }
+//        return true
+//    }
+
     private fun addDatatoFirebase(itemText: String) {
         // below 3 lines of code is used to set
         // data in our object class.
@@ -142,4 +160,13 @@ class MainActivity : AppCompatActivity() {
         }
         notificationManager.notify(12345, builder.build())
     }
+
+
+      fun fetchItems(): ArrayList<String> {
+
+            return items
+        }
+
+
+
 }
