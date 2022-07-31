@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">579461356268-5qa1i2vqkp942q24qjumoui5nn89aonl.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">579461356268</string>
+    <string name="google_api_key" translatable="false">AIzaSyBvhaZtA4XR-ZA42UQpU2GLj7wngmKIfsc</string>
+    <string name="google_app_id" translatable="false">1:579461356268:android:531777703df85ef8e5a3c9</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBvhaZtA4XR-ZA42UQpU2GLj7wngmKIfsc</string>
+    <string name="google_storage_bucket" translatable="false">timeman-c6fd4.appspot.com</string>
+    <string name="project_id" translatable="false">timeman-c6fd4</string>
+</resources>
