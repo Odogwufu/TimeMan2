@@ -24,6 +24,11 @@ class MainActivity3 : AppCompatActivity() {
             val intent = Intent(this,MainActivity2::class.java)
             startActivity(intent)
         }
+        val button7 =findViewById<Button>(R.id.button7)
+        button7.setOnClickListener{
+            val intent = Intent(this,MainActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     fun AddCalendarEvent(view:View) {
