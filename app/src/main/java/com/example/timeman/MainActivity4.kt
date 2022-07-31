@@ -18,20 +18,11 @@ import com.google.firebase.firestore.FirebaseFirestore
 
 class MainActivity4 : AppCompatActivity() {
 
-    // creating variable for button
 
+    private lateinit var username: String
 
-    // creating a strings for storing
-    // our values from edittext fields.
-    private lateinit var username: String // creating a strings for storing
-
-
-
-    // our values from edittext fields.
     private lateinit var profiledes: String
 
-    // creating a variable
-    // for firebasefirestore.
     private var db: FirebaseFirestore? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -39,33 +30,19 @@ class MainActivity4 : AppCompatActivity() {
 
         setContentView(com.example.timeman.R.layout.activity_main4)
 
-        // getting our instance
-        // from Firebase Firestore.
         db = FirebaseFirestore.getInstance()
 
-        // initializing our edittext and buttons
-
-
-         username = findViewById<EditText>(R.id.editTextTextPersonName2).toString()
+        username = findViewById<EditText>(R.id.editTextTextPersonName2).toString()
         profiledes = findViewById<EditText>(R.id.editTextTextPersonName3).toString()
 
         val submitBtn = findViewById<Button>(R.id.Submit)
 
-        // adding on click listener for button
-
-
         submitBtn.setOnClickListener {
 
 
-                // getting data from edittext fields.
-//                username = editTextTextPersonName2.getText().toString()
-//                profiledes = courseDescriptionEdt.getText().toString()
                 username = findViewById<EditText>(R.id.editTextTextPersonName2).getText().toString()
                 profiledes = findViewById<EditText>(R.id.editTextTextPersonName3).getText().toString()
 
-                // validating the text fields if empty or not.
-
-                    // calling method to add data to Firebase Firestore.
                     addDataToFirestore(username!!, profiledes)
 
             }
@@ -78,8 +55,6 @@ class MainActivity4 : AppCompatActivity() {
 
     ) {
 
-        // creating a collection reference
-        // for our Firebase Firetore database.
 
         val dbProfile: CollectionReference = db!!.collection("Profile")
 
@@ -97,7 +72,6 @@ class MainActivity4 : AppCompatActivity() {
                 ).show()
             })
             .addOnFailureListener(OnFailureListener { e -> // this method is called when the data addition process is failed.
-                // displaying a toast message when data addition is failed.
                 Toast.makeText(this@MainActivity4, "Fail to add course \n$e", Toast.LENGTH_SHORT)
                     .show()
             })

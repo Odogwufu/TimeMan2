@@ -1,5 +1,6 @@
 package com.example.timeman
 
+import android.annotation.SuppressLint
 import android.app.*
 import android.content.Context
 import android.content.Intent
@@ -77,6 +78,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    @SuppressLint("UseSwitchCompatOrMaterialCode")
     fun addItem(view:View) {
         val input = findViewById<EditText>(R.id.editText2)
         val itemText = input.text.toString()
@@ -90,32 +92,17 @@ class MainActivity : AppCompatActivity() {
                 createNotification(itemText)
             }
 
-//            checktoggle() {
-//                createNotification(itemText)
-//            }
-
         } else {
             Toast.makeText(applicationContext, "PLease enter text...", Toast.LENGTH_LONG).show()
         }
     }
 
-//    private fun checktoggle(): Boolean {
-//
-//    val switch=findViewById<Switch>(R.id.switch1)
-//       if ( switch.isChecked){
-//           return true
-//       }
-//        return true
-//    }
+
 
     private fun addDatatoFirebase(itemText: String) {
-        // below 3 lines of code is used to set
-        // data in our object class.
-//        items.add(itemText)
-
 
         // we are use add value event listener method
-        // which is called with database reference.
+        //  called with database reference.
             databaseReference!!.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 // inside the method of on Data change we are setting
@@ -136,21 +123,6 @@ class MainActivity : AppCompatActivity() {
         })
     }
 
-    //Can be deleted
-
-//    fun btnNotify(view: View) { val intent = Intent(this, LauncherActivity::class.java)
-//        val pendingIntent = PendingIntent.getActivity(this, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT)
-//        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-//            notificationChannel = NotificationChannel(channelId, description, NotificationManager .IMPORTANCE_HIGH)
-//            notificationChannel.lightColor = Color.BLUE
-//            notificationManager.createNotificationChannel(notificationChannel)
-//            builder = Notification.Builder(this, channelId).setContentTitle("NOTIFICATION USING " +
-//                    "KOTLIN").setContentText("Test Notification").setSmallIcon(com.google.firebase.appcheck.interop.R.drawable .notification_icon_background).setLargeIcon(
-//                BitmapFactory.decodeResource(this.resources, R.drawable
-//                .ic_launcher_background)).setContentIntent(pendingIntent)
-//        }
-//        notificationManager.notify(12345, builder.build())}
-
 
     fun createNotification(itemText: String){ val intent = Intent(this, LauncherActivity::class.java)
         val pendingIntent = PendingIntent.getActivity(this, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT)
@@ -170,7 +142,5 @@ class MainActivity : AppCompatActivity() {
 
             return items
         }
-
-
 
 }

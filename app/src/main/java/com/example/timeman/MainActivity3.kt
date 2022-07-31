@@ -39,7 +39,7 @@ class MainActivity3 : AppCompatActivity() {
         i.putExtra("allDay", true)
         i.putExtra("rule", "FREQ=YEARLY")
         i.putExtra("endTime", calendarEvent.timeInMillis + 60 * 60 * 1000)
-        i.putExtra("title", "Calendar Event")
+        i.putExtra("title", "TimeMan Event")
         startActivity(i)
     }
 
