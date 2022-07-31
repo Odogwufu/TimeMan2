@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TimeMan20.iml" filepath="$PROJECT_DIR$/.idea/modules/TimeMan20.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/timeman.iml" filepath="$PROJECT_DIR$/.idea/modules/timeman.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/timeman.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/timeman.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/timeman.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/timeman.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/timeman.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/timeman.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/timeman.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/timeman.app.unitTest.iml" />
     </modules>
   </component>
 </project>
