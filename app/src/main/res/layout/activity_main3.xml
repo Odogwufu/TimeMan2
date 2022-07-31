@@ -19,7 +19,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:popupTheme="@style/Theme.Timeman.PopupOverlay" />
 
-
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="96dp"
+        android:layout_height="64dp"
+        android:text="Timer page"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbar" />
     <CalendarView
         android:id="@+id/calendarView3"
         android:layout_width="wrap_content"
