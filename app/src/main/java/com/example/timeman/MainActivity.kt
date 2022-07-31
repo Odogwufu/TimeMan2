@@ -44,7 +44,11 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this,MainActivity3::class.java)
             startActivity(intent)
         }
-
+        val button6 =findViewById<Button>(R.id.button6)
+        button6.setOnClickListener{
+            val intent = Intent(this,MainActivity2::class.java)
+            startActivity(intent)
+        }
         listView =findViewById(R.id.listView)
         button = findViewById(R.id.button)
 
