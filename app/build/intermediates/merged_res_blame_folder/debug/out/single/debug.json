@@ -1,0 +1,198 @@
+[
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\drawable_ic_baseline_pause_24.xml.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\drawable\\ic_baseline_pause_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\navigation_nav_graph3.xml.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\navigation\\nav_graph3.xml"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\navigation_nav_graph7.xml.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\navigation\\nav_graph7.xml"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\layout_activity_signup.xml.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\layout\\activity_signup.xml"
+    },
+    {
+        "merged": "com.example.timeman.app-merged_res-50:/layout_activity_main3.xml.flat",
+        "source": "com.example.timeman.app-main-52:/layout/activity_main3.xml"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\navigation_nav_graph6.xml.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\navigation\\nav_graph6.xml"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\menu_menu_main.xml.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\layout_activity_main3.xml.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\layout\\activity_main3.xml"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\navigation_nav_graph4.xml.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\navigation\\nav_graph4.xml"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\layout_activity_main2.xml.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\layout\\activity_main2.xml"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\layout_activity_main4.xml.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\layout\\activity_main4.xml"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\layout_activity_signin.xml.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\layout\\activity_signin.xml"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\navigation_nav_graph2.xml.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\navigation\\nav_graph2.xml"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\drawable_ic_baseline_refresh_24.xml.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\drawable\\ic_baseline_refresh_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-pngs-45:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\drawable_ic_baseline_play_arrow_24.xml.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\drawable\\ic_baseline_play_arrow_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\navigation_nav_graph5.xml.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\navigation\\nav_graph5.xml"
+    },
+    {
+        "merged": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-merged_res-50:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\risha\\.gradle\\daemon\\7.3.3\\com.example.timeman.app-main-52:\\mipmap-mdpi\\ic_launcher_round.webp"
+    }
+]
