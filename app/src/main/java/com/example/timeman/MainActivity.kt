@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity
 
 
 class MainActivity : AppCompatActivity() {
-
+// initialize variables
     private lateinit var items: ArrayList<String>
     private lateinit var itemsAdapter: ArrayAdapter<String>
     private lateinit var button: Button
@@ -22,13 +22,13 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(SavedInstanceState: Bundle?) {
         super.onCreate(SavedInstanceState)
         setContentView(R.layout.activity_main)
-
+//created button
         val button3 =findViewById<Button>(R.id.button3)
         button3.setOnClickListener{
             val intent = Intent(this,MainActivity2::class.java)
             startActivity(intent)
         }
-
+//finding xml data from activity.xml files
         listView =findViewById(R.id.listView)
         button = findViewById(R.id.button)
 
@@ -42,6 +42,7 @@ class MainActivity : AppCompatActivity() {
         setupListViewListener()
     }
 
+    // holding click on an item removes it.
     private fun setupListViewListener() {
         listView.setOnItemLongClickListener{parent:AdapterView<*>?,view:View?,i,l ->
 
@@ -52,7 +53,7 @@ class MainActivity : AppCompatActivity() {
             true
         }
     }
-
+//adds new item
     private fun addItem(view:View) {
         val input = findViewById<EditText>(R.id.editText2)
         val itemText = input.text.toString()
