@@ -29,9 +29,14 @@
         </activity>
         <activity
             android:name=".MainActivity4"
-            android:exported="false"
+            android:exported="true"
             android:label="@string/title_activity_main4"
-            android:theme="@style/Theme.Timeman.NoActionBar" />
+            android:theme="@style/Theme.Timeman.NoActionBar">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
         <activity
             android:name=".MainActivity3"
             android:exported="true"
@@ -60,6 +65,8 @@
         </activity>
 
         <service android:name=".TimerService" />
+
+
     </application>
 
 </manifest>

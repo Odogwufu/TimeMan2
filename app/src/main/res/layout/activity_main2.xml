@@ -53,4 +53,10 @@
         android:layout_marginBottom="4dp"
         android:text="Calendar" />
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to Profile Page" />
+
 </LinearLayout>
